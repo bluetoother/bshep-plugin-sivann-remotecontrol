@@ -1,12 +1,7 @@
 module.exports = {
     gattDefs: {
         service: [
-            { name: 'dinServ', uuid: '0xbb00' },
-            { name: 'ainServ', uuid: '0xbb10' },
             { name: 'keyServ', uuid: '0xbb70' }
-        ],
-        characteristic: [
-            { name: 'ainMeasPeriod', uuid: '0xbb11', params: ['period'], types: ['uint8'] }
         ]
      },
      analysis: function (periph, basicInfo) {
