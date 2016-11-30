@@ -14,11 +14,7 @@ module.exports = {
         var isMine = false;
 
         if (basicInfo.manufacturer === 'sivann' &&
-            basicInfo.devName === 'Remote Control' &&
-            basicInfo.model === 'RemoteControl' &&
-            basicInfo.fwRev === 'v1.0.0' && 
-            basicInfo.hwRev === 'v1.0.0' &&
-            basicInfo.swRev === 'v1.0.0')
+            basicInfo.devName === 'Remote Control')
             isMine = true;
 
         return isMine;
